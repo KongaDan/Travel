@@ -51,11 +51,11 @@ $(function () {
             navbar = $(".navbar"),
             logo = $(".navbar .logo> img");
         if (bodyScroll > 100) {
-            navbar.addClass("nav-scroll");
-            logo.attr('src', 'img/logo-dark.png');
+            navbar.addClass("nav-scroll"); 
+            logo.attr('id', 'imgscroll');
         } else {
             navbar.removeClass("nav-scroll");
-            logo.attr('src', 'img/logo-light.png');
+            logo.attr('id', 'img');
         }
     });
     
