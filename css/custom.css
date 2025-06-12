@@ -1,0 +1,10 @@
+.logo-img {
+    color: white;
+    filter: invert(1);
+}
+#img {
+    filter: invert(1) brightness(2);
+}
+.logo {
+    width: 10rem;
+}
